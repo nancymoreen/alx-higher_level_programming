@@ -1,9 +1,6 @@
-#!/usr/bin/python3.4
-import hidden_4
-def print_hidden():
-    hidden = dir(hidden_4)
-    for i in hidden:
-        if(i[:2] != "__"):
-            print(i)
+#!/usr/bin/python3
 if __name__ == "__main__":
-    print_hidden()
+    import hidden_4
+    for name in dir(hidden_4):
+        if name[0:2] not in "__":
+            print("{}".format(name))
