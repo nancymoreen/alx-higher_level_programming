@@ -2,7 +2,8 @@
 
 class Square:
     """
-    Empty class named Square that defines a square
+    Empty class named Square.
+    This class defines a square.
     """
     pass
 
