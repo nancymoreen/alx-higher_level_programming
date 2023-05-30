@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""Creation of a class Square"""
+
 
 class Square:
-    """Defines a square.
+    """Class square defines a square.
     -Private instance attribute: size
     -Instantiation with optional size
     Args:
