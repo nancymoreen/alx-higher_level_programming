@@ -2,15 +2,12 @@
 
 """Creation of class Square"""
 
+
 class Square:
-
-    """Defines a square"""
-
+    """Class Square efines a square:
+    -Private instanmce attribute: size
+    -Instantiation with size(no type/value verification))
+    Args:
+    size: Size of the square"""
     def __init__(self, size):
-
-        """Use of given size.
-        Args:
-        size: Size of the square.
-        """
-
         self.__size = size
