@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 """Module that writes a string to a text file and returns the number of
 characters written.
 """
