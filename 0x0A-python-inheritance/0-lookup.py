@@ -8,5 +8,4 @@ def lookup(obj):
     """Function that returns the list of available attributes and methods of
     an object.
     """
-    return [attribute for attribute in dir[obj] if not
-            attribute.startswith('--)]
+    return dir(obj)
