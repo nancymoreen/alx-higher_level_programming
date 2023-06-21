@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 """Module for checking if an object is an instance of a  class
 that inherited from a specified class.
 """
