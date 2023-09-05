@@ -6,8 +6,10 @@ class Square extends SquareBase {
     if (c === undefined) {
       c = 'X';
     }
-    process.stdout.write((c.repeat(this.width) + '\n').repeat(this.height));
+
+    for (let i = 0; i < this.height; i++) {
+      console.log(c.repeat(this.width));
+    }
   }
 }
-
 module.exports = Square;
