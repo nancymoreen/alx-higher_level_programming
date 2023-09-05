@@ -8,7 +8,15 @@ Base = declarative_base()
 
 
 class City(Base):
-    """Class representing the states table"""
+    """Represents a city in the database.
+
+    This class defines the structure of the 'cities' table in the database.
+
+    Attributes:
+        id (int): The unique identifier for the city.
+        name (str): The name of the city.
+        state_id (int): The ID of the state to which the city belongs.
+    """
     __tablename__ = 'cities'
 
     id = Column(Integer, nullable=False, primary_key=True,
